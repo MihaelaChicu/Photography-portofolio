@@ -11,17 +11,17 @@
 }
 
 
-ul{
+.navbar{
     margin-top:153px;
     overflow: hidden;
 }
 
-li{
+.list-item{
     display: inline;
 }
 
 
-li a{
+.list-item .header-link{
     text-decoration:none;
     color:purple;
     font-size: 25px;
@@ -36,9 +36,8 @@ li a{
 
 .asset-container{
    display: grid;
-   border: 1px black solid;
-   grid-template-columns: 350px 350px 350px;
-   margin-left: 100px;
+   grid-template-columns: 400px 400px 400px;
+   margin-left: 45px;
    margin-right: 10px;
    grid-row-gap: 10px;
    column-gap: 10px;
@@ -51,16 +50,35 @@ li a{
 }
 
 .asset-container img{
-    height: 550px;
-    width: 350px;
+    height: 600px;
+    width: 400px;
 }
 
 .image-container{
-   height: 550px;
-   width: 350px;
+   height: 600px;
+   width: 400px;
 }
 
 footer{
-    padding-bottom: 30px;;
+    height: 170px;
     text-align: center;
+}
+
+.footer-unordered-list{
+    padding-top: 40px;
+}
+.social-item{
+    display: inline;
+    text-decoration: none;
+}
+
+.social-item .footer-link{
+    padding-top: 30px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#copyright{
+    color:purple;
+    list-style-type: none;
 }
