@@ -26,7 +26,7 @@ li a{
     color:purple;
     font-size: 25px;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .list-item{
@@ -37,19 +37,27 @@ li a{
 .asset-container{
    display: grid;
    border: 1px black solid;
-   grid-template-columns: 400px 400px 400px;
-   grid-gap: 10px;
-   padding-left: 99px;
+   grid-template-columns: 350px 350px 350px;
+   margin-left: 100px;
+   margin-right: 10px;
+   grid-row-gap: 10px;
+   column-gap: 10px;
+
 }
 
 .gallery {
     padding-left: 100px;
     padding-right:100px;
 }
+
 .asset-container img{
-    height: 600px;
-    width: 400px;
-   
+    height: 550px;
+    width: 350px;
+}
+
+.image-container{
+   height: 550px;
+   width: 350px;
 }
 
 footer{
