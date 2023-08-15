@@ -71,25 +71,33 @@
 }
 
 
-.asset-container{
-   display: grid;
-   grid-template-columns: 400px 400px 400px;
-   margin-left: 45px;
-   margin-right: 10px;
-   grid-row-gap: 10px;
-   column-gap: 10px;
-
+/* Masonry layout */
+.assets-container{
+   column-count: 3;
+   column-gap: 30px 30px; 
+   width: 1200px;
 }
 
 .gallery {
-    padding-left: 100px;
-    padding-right:100px;
+max-width:1224px;
+margin: 0 auto;
+} 
+
+
+img{
+    width: 400px;
+    object-fit: contain;
 }
 
-.asset-container img{
-    height: 600px;
-    width: 400px;
-}
+figure {
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 100%;
+   }
+
+/*----------------- */
+
 
 .image-container{
    height: 600px;
