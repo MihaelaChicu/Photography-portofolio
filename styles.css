@@ -73,13 +73,14 @@
 
 /* Masonry layout */
 .assets-container{
+  align-content: flex-start;
    column-count: 3;
    column-gap: 30px 30px; 
    width: 1200px;
 }
 
 .gallery {
-max-width:1224px;
+max-width:1200px;
 margin: 0 auto;
 } 
 
@@ -97,12 +98,6 @@ figure {
    }
 
 /*----------------- */
-
-
-.image-container{
-   height: 600px;
-   width: 400px;
-}
 
 footer{
     height: 170px;
