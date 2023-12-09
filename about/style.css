@@ -5,6 +5,9 @@
     text-align: center;
 }
 
+title{
+    color: blue;
+}
 .section{
     min-height:100vh;
     background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url("../images/background.jpg");
