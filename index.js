@@ -14,3 +14,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+// Get the 'About' list item element by its ID
+const aboutListItem = document.getElementById('aboutLink');
+
+// Add a click event listener to the 'About' list item 
+aboutListItem.addEventListener('click', function() {
+  //redirect to the 'about' page when clicked
+  window.location.href = 'about/about.html';
+});
