@@ -21,5 +21,5 @@ const aboutListItem = document.getElementById('aboutLink');
 // Add a click event listener to the 'About' list item 
 aboutListItem.addEventListener('click', function() {
   //redirect to the 'about' page when clicked
-  window.location.href = 'about/about.html';
+  window.location.href = 'about/index.html';
 });
