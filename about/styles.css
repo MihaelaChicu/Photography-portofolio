@@ -30,7 +30,7 @@ img{
     display: block;
     margin-top: 40px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #ccc;
 }
 
 article h1{
@@ -47,4 +47,22 @@ article h1::after{
     background-color: #e69090;
     display:block;
     margin: auto;
+}
+
+#aboutMeContent p {
+    font-size: 25px;
+    color: #ccc;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-right: 170px;
+    margin-left:170px;
+}
+
+
+article h5{
+ text-transform: uppercase;
+ font-size: 32px;
+ font-weight: 500;
+ margin-top: 30px;
+ color: #e69090;
 }
