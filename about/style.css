@@ -18,7 +18,7 @@ title{
 
 
 .hero{
-    width:80%;
+    width:100%;
     margin: auto;
 }
 
@@ -37,14 +37,17 @@ article h1{
   font-weight: 500;
   text-transform: uppercase;
   color: #e69090;
+  display: inline-block;
+  margin: auto;
+  padding-top: 3%;
 }
 
 article h1::after{
     content:"";
     height: 3px;
-    width:30%;
+    width: 100%; /*make line width 100% of the element content*/
     background-color: #e69090;
-    display:block;
+    display: block; /*leave this block so it's right under the h1*/
     margin: auto;
 }
 
@@ -78,6 +81,13 @@ article h5{
     article h1{
         font-size:2rem;
         padding-top: 2rem;
+        display: inline-block;/* Change the display property to inline-block so element is the size of its content*/
+        margin: 0;
+      }
+  
+      article h1::after{
+        content:"";
+        width:100%; /*make line width 100% of the element content*/
       }
 }
 
@@ -86,7 +96,6 @@ article h5{
         width: 100%;
         background-color: red;
     }
-
 }
 
 /*next major breakpoint is 768px*/
@@ -98,3 +107,5 @@ article h5{
     }
 
 }
+
+
