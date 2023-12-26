@@ -116,7 +116,10 @@ article h5{
         background-color: green;
     }
 
-
+    article img{
+        height:20%;
+        width: 20%;
+    }
 }
 
 
