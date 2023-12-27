@@ -1,23 +1,26 @@
-#logo{
-    position: relative;
-    height:180px;
-
-}
-
 
 .header-container{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 50px 30px 30px 130px;
     text-align: center;
-    flex-wrap: wrap;
+    margin-left:8%;
+    margin-right: 10%;
+}
+
+.navbar{
+    margin-top: 19%;
+    
+}
+
+.navbar .list-item{
+  
 }
 
 .socialmedia-header-container{
-    height:50px;
-    margin-left: 250px;
-    margin-top: 5px;
+    height:5em;
+    margin-top: 18%;
+    margin-left: 29.5%;
 }
 
 .socialmedia-header-container img{
@@ -50,12 +53,6 @@
 /* Remove the grayscale filter on hover */
 .icon:hover{
   filter: none; 
-}
-
-
-.navbar{
-    margin-top:153px;
-    overflow: hidden;
 }
 
 .list-item{
