@@ -71,7 +71,7 @@ article h5{
 
 /*media query for responsive layout on all devices*/
 
-@media (max-width: 600px ) {
+@media only screen and(max-width: 600px ) {
   img{
      height: 12em;
      width:10em;
