@@ -22,6 +22,7 @@ title{
     margin: auto;
 }
 
+/*every element is in EM - in relation to the size of it's parent*/
 img{
     height: 15em;
     width: 13em;
