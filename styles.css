@@ -1,16 +1,12 @@
 
 .header-container{
     display: flex;
-    border: 2px solid red;
     margin-left: 10%;
     margin-right:10%;
+    margin-bottom: 2em;
 }
 
 
-.navbar{
-    height:5em;
-    width: 100%;
-}
 
 .social-item-top{
     display: inline;
@@ -37,21 +33,24 @@
   filter: none; 
 }
 
+.list-item .header-link{
+    display: inline;
+    text-decoration: none;
+    color:purple;
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: .5em;
+}
+
+/* About Contact Prices */
+.menu-container{
+    padding-top: 7.5em;
+    padding-left: 15em;
+}
+
 .list-item{
     display: inline;
-}
-
-
-.list-item .header-link{
-    text-decoration:none;
-    color:purple;
-    font-size: 2em;
-    padding-right: .5em;
-
-}
-
-.list-item{
-  display:sticky;
+    padding-right: 1.5em;
 }
 
 /* Body container */
