@@ -58,7 +58,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #1b1b32;
+    background-color: white;
 }
 
 
@@ -69,20 +69,16 @@ body{
 }
 
 
-.asset-container{
+.asset-container{ 
    margin-top: .5%;
    margin-left: 10%;
    margin-right:10%;
-   border: 2px solid yellow;
+   padding-left: 1em;
 }
 
-
-
 .asset-container img{
-    height: 25em;
-    width: 20em;
-    padding-right:0;
-    border: 2px solid green;
+    height: 35em;
+    width: 24.5em;
 }
 
 
