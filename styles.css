@@ -69,14 +69,16 @@ body{
 
 
 .asset-container{ 
+    display: flex;
+    flex-wrap: wrap;
    margin-top: .5%;
    margin-left: 10%;
    margin-right:10%;
-   padding-left: 1em;
+   gap: .5rem;
 }
 
 .asset-container img{
-    height: 35em;
+    height: 34em;
     width: 24.5em;
 }
 
