@@ -71,10 +71,8 @@ body{
 .asset-container{ 
     display: flex;
     flex-wrap: wrap;
-   margin-top: .5%;
-   margin-left: 10%;
-   margin-right:10%;
-   gap: .5rem;
+    margin-left: 11%;
+    gap: .5rem;
 }
 
 .asset-container img{
