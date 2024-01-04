@@ -73,12 +73,13 @@ body{
     flex-wrap: wrap;
     margin-left: 11%;
     gap: .5rem;
-}
+} 
 
 .asset-container img{
     height: 34em;
     width: 24.5em;
-}
+} 
+
 
 
 /*So logo image does not overflow */
