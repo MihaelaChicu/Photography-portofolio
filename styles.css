@@ -1,4 +1,5 @@
 
+/* Header */
 .header-container{
     display: flex;
     margin-left: 10%;
@@ -7,44 +8,17 @@
 }
 
 
-
-.social-item-top{
-    display: inline;
-    text-decoration: none;
-    padding-right: .5em;
-
-}
-
-.social-item-top .header-link{
-    text-decoration: none;
-}
+/* Logo image does not overflow */
+#logo-image{
+    max-width: 100%; 
+    height: 50%;
+    width: 20%;
+  }
 
 
-/* Gray icons */
-
-.icon{
-    width:3em;
-    height: 3em;
-    transition: filter 0.3s;
-}
-
-/* Remove the grayscale filter on hover */
-.icon:hover{
-  filter: none; 
-}
-
-.list-item .header-link{
-    display: inline;
-    text-decoration: none;
-    color:purple;
-    font-size: 1.5em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-right: .5em;
-}
-
-/* About Contact Prices */
+/* About Contact Prices menu*/
 .menu-container{
-    padding-top: 7.5em;
+    padding-top: 7.6em;
     padding-left: 15em;
 }
 
@@ -53,6 +27,41 @@
     padding-right: 1.5em;
 }
 
+.list-item .header-link{
+    display: inline;
+    text-decoration: none;
+    color:purple;
+    font-size: 1.4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: .5em;
+}
+
+
+/* Gray icons */
+.social-item-top{
+    display: inline;
+    padding-right: .5em;
+    margin-left: 16em;
+    margin-top: 1em;
+}
+
+.social-item-top .header-link{
+    text-decoration: none;
+}
+
+.icon{
+    width:3em;
+    height: 3em;
+    transition: filter 0.3s;
+}
+
+
+/* Remove the grayscale filter on hover */
+.icon:hover{
+  filter: none; 
+}
+
+
 /* Body container */
 body{
     margin: 0;
@@ -60,14 +69,13 @@ body{
     background-color: white;
 }
 
-
-
-/*Smooth transition for nav links */
+/*Smooth transition for image box */
 *{
  scroll-behavior: smooth;
 }
 
 
+/* Image gallery */
 .asset-container{ 
     display: flex;
     flex-wrap: wrap;
@@ -81,34 +89,30 @@ body{
 } 
 
 
-
-/*So logo image does not overflow */
-#logo-image{
-    max-width: 100%; 
-    height: 50%;
-    width: 20%;
-  }
-
+/* Footer */
 footer{
-    height: 170px;
+    height: 10%;
     text-align: center;
+    padding-top:2em;
 }
 
 .footer-unordered-list{
-    padding-top: 40px;
+    display:inline;
+    text-decoration: none;
 }
-.social-item{
+
+.social-item-bottom{
     display: inline;
+}
+
+
+.social-item-bottom .footer-link{
     text-decoration: none;
 }
 
-.social-item .footer-link{
-    padding-top: 30px;
-    padding-right: 10px;
-    text-decoration: none;
-}
-
-#copyright{
+p{
     color:purple;
     list-style-type: none;
+    padding-left: 3.5em;
+    padding-bottom: 2em;
 }
