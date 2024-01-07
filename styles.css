@@ -30,6 +30,7 @@
 .list-item .header-link{
     display: inline;
     text-decoration: none;
+    text-align: center;
     color:purple;
     font-size: 1.4em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,3 +117,42 @@ p{
     padding-left: 3.5em;
     padding-bottom: 2em;
 }
+
+/* Responsive layout on mobile */
+
+@media (width < 600px){
+
+    .header-container{
+        display:inline;
+        margin-left: 10%;
+        margin-right:10%;
+    }
+
+   #logo-image{
+       height: 60%;
+       width: 50%;
+       padding-top: 1em;
+       padding-left: 16%;
+    }
+
+    /* About Contact Prices menu*/
+   .menu-container{
+       padding-top: 1.5em;
+       padding-left: 7em;
+       padding-bottom: 1em;
+    }
+
+    /* Social media container */
+    .social-item-top{
+        padding-right: .5em;
+        margin-left: 11.5em;
+    }
+
+    .icon{
+        width:2.5em;
+        height: 2.5em;
+        padding-bottom: 1em;
+    }
+    
+}
+
