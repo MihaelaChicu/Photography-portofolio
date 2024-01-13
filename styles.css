@@ -119,46 +119,62 @@ p{
 }
 
 /* Responsive layout on mobile */
+@media only screen and (max-width: 400px) {
 
-@media (width < 600px){
-
-    .header-container{
-        display:inline;
-        margin-left: 10%;
-        margin-right:10%;
-    }
-
+    
+    .header-container {
+        margin-top: 1em;
+        margin-left: 1.7em;
+        margin-right:1.5em;
+        margin-bottom: 1em;
+        }
+        
+    
+  
    #logo-image{
-       height: 60%;
+       height: 80%;
        width: 50%;
-       padding-top: 1em;
-       padding-left: 17%;
-    }
+   }
 
     /* About Contact Prices menu*/
    .menu-container{
-       padding-top: 1.5em;
-       padding-left: 7em;
-       padding-bottom: 1em;
+  padding:0;
+  margin-top:2.5em;
+  margin-left: 2em;
     }
 
 
     .list-item .header-link{
-        font-size: 1.2em;
-        padding-left: .5em;
+        font-size: 1em;
     }
 
     /* Social media container */
     .social-item-top{
-        padding-right: .5em;
-        margin-left: 11.5em;
+        margin-left: 1em;
     }
 
     .icon{
-        width:2.5em;
-        height: 2.5em;
-        padding-bottom: 1em;
+        width:1.5em;
+        height: 1.5em;
+    }
+
+    .asset-container img{
+        display: grid;
+        width: 30%;
+        height:25%;
+        
     }
     
 }
 
+
+
+
+
+
+
+
+
+
+   
+  
