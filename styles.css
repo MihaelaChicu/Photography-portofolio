@@ -1,180 +1,175 @@
-
 /* Header */
-.header-container{
-    display: flex;
-    margin-left: 10%;
-    margin-right:10%;
-    margin-bottom: 2em;
+.header-container {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2em;
 }
-
 
 /* Logo image does not overflow */
-#logo-image{
-    max-width: 100%; 
-    height: 50%;
-    width: 20%;
-  }
-
+#logo-image {
+  max-width: 100%;
+  height: 50%;
+  width: 20%;
+}
 
 /* About Contact Prices menu*/
-.menu-container{
-    padding-top: 7.6em;
-    padding-left: 15em;
+.menu-container {
+  padding-top: 7.6em;
+  padding-left: 15em;
 }
 
-.list-item{
-    display: inline;
-    padding-right: 1.5em;
+.list-item {
+  display: inline;
+  padding-right: 1.5em;
 }
 
-.list-item .header-link{
-    display: inline;
-    text-decoration: none;
-    text-align: center;
-    color:purple;
-    font-size: 1.4em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-right: .5em;
+.list-item .header-link {
+  display: inline;
+  text-decoration: none;
+  color: purple;
+  font-size: 1.4em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 0.4em;
 }
 
+.list-item .header-link:hover {
+  text-decoration: underline;
+}
 
 /* Gray icons */
-.social-item-top{
-    display: inline;
-    padding-right: .5em;
-    margin-left: 16em;
-    margin-top: 1em;
+.social-item-top {
+  display: inline;
+  padding-right: 0.5em;
+  margin-left: 16em;
+  margin-top: 1em;
 }
 
-.social-item-top .header-link{
-    text-decoration: none;
+.social-item-top .header-link {
+  text-decoration: none;
 }
 
-.icon{
-    width:3em;
-    height: 3em;
-    transition: filter 0.3s;
+.icon {
+  width: 3em;
+  height: 3em;
+  transition: filter 0.3s;
 }
-
 
 /* Remove the grayscale filter on hover */
-.icon:hover{
-  filter: none; 
+.icon:hover {
+  filter: none;
 }
 
-
 /* Body container */
-body{
-    margin: 0;
-    padding: 0;
-    background-color: white;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
 }
 
 /*Smooth transition for image box */
-*{
- scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
 }
-
 
 /* Image gallery */
-.asset-container{ 
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 11%;
-    gap: .5rem;
-} 
+.asset-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 11%;
+  gap: 0.5rem;
+}
 
-.asset-container img{
-    height: 34em;
-    width: 24.5em;
-} 
-
+.asset-container img {
+  height: 34em;
+  width: 24.5em;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.082);
+}
 
 /* Footer */
-footer{
-    height: 10%;
-    text-align: center;
-    padding-top:2em;
+footer {
+  height: 10%;
+  text-align: center;
+  padding-top: 2em;
 }
 
-.footer-unordered-list{
-    display:inline;
-    text-decoration: none;
+.footer-unordered-list {
+  display: inline;
+  text-decoration: none;
 }
 
-.social-item-bottom{
-    display: inline;
+.social-item-bottom {
+  display: inline;
 }
 
-
-.social-item-bottom .footer-link{
-    text-decoration: none;
+.social-item-bottom .footer-link {
+  text-decoration: none;
 }
 
-p{
-    color:purple;
-    list-style-type: none;
-    padding-left: 3.5em;
-    padding-bottom: 2em;
+p {
+  color: white;
+  list-style-type: none;
+  padding-left: 3em;
+  padding-bottom: 2em;
 }
 
-/* Responsive layout on mobile */
+/* RESPONSIVE ON MOBILE */
+
 @media only screen and (max-width: 400px) {
+  .header-container {
+    margin-top: 1em 1.5em 1em 1.7em;
+  }
 
-    
-    .header-container {
-        margin-top: 1em;
-        margin-left: 1.7em;
-        margin-right:1.5em;
-        margin-bottom: 1em;
-        }
-        
-    
-  
-   #logo-image{
-       height: 80%;
-       width: 50%;
-   }
+  #logo-image {
+    height: 80%;
+    width: 50%;
+    padding-top: 1em;
+  }
 
-    /* About Contact Prices menu*/
-   .menu-container{
-  padding:0;
-  margin-top:2.5em;
-  margin-left: 2em;
-    }
+  .menu-container {
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+    padding-top: 3em;
+  }
 
+  .list-item .header-link {
+    display:inline;
+    font-size: 1em;
+    padding-top: 3em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
 
-    .list-item .header-link{
-        font-size: 1em;
-    }
+  /* Social media container */
+  .social-item-top {
+    display: grid;
+    margin: 0;
+    padding-top: 2em;
+  }
 
-    /* Social media container */
-    .social-item-top{
-        margin-left: 1em;
-    }
+  .icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
 
-    .icon{
-        width:1.5em;
-        height: 1.5em;
-    }
+  .asset-container img {
+    width: 80%;
+    height: 60%;
+  }
 
-    .asset-container img{
-        display: grid;
-        width: 30%;
-        height:25%;
-        
-    }
-    
+  .asset-container {
+    margin-right: 1em;
+    margin-left: 3em;
+  }
 }
 
+/* Added gradient color for background & boxshadow for pics */
+body {
+  background: linear-gradient(to bottom, #d1b4b9, #44617b);
+  background-position: 5% 0;
+  margin: 0;
+}
 
-
-
-
-
-
-
-
-
-   
-  
+a:hover {
+  text-decoration: underline;
+}
