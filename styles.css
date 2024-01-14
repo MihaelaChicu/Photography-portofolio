@@ -155,11 +155,13 @@ p {
   .asset-container img {
     width: 80%;
     height: 60%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .asset-container {
-    margin-right: 1em;
-    margin-left: 3em;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
