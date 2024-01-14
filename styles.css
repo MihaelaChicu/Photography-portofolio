@@ -15,6 +15,7 @@
 
 /* About Contact Prices menu*/
 .menu-container {
+  display:inline;
   padding-top: 7.6em;
   padding-left: 15em;
 }
@@ -86,6 +87,72 @@ body {
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.082);
 }
 
+
+/* START OF MEDIA QUERY*/
+@media only screen and (max-width: 400px) {
+  .header-container {
+    margin-top: 1em 1.5em 1em 1.7em;
+  }
+
+  #logo-image {
+    height: 80%;
+    width: 50%;
+    padding-top: 1em;
+  }
+
+
+  .list-item .header-link {
+    display:inline;
+    font-size: 1em;
+    }
+
+    .menu-container{
+      padding-left: 1.5em;
+      padding-right: 0.5em;
+      padding-top: 2em;
+    }
+  .social-item-top {
+    display: grid;
+    margin: 0;
+    padding-top: 2em;
+  }
+
+  .icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .asset-container img {
+    width: 80%;
+    height: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .asset-container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+/* END OF MEDIA QUERY*/
+
+
+
+
+
+/* Added gradient color for background & boxshadow for pics */
+body {
+  background: linear-gradient(to bottom, #d1b4b9, #44617b);
+  background-position: 5% 0;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 /* Footer */
 footer {
   height: 10%;
@@ -113,65 +180,4 @@ p {
   padding-bottom: 2em;
 }
 
-/* RESPONSIVE ON MOBILE */
 
-@media only screen and (max-width: 400px) {
-  .header-container {
-    margin-top: 1em 1.5em 1em 1.7em;
-  }
-
-  #logo-image {
-    height: 80%;
-    width: 50%;
-    padding-top: 1em;
-  }
-
-  .menu-container {
-    padding-left: 1.5em;
-    padding-right: 0.5em;
-    padding-top: 3em;
-  }
-
-  .list-item .header-link {
-    display:inline;
-    font-size: 1em;
-    padding-top: 3em;
-    margin-top: 2em;
-    margin-bottom: 5em;
-  }
-
-  /* Social media container */
-  .social-item-top {
-    display: grid;
-    margin: 0;
-    padding-top: 2em;
-  }
-
-  .icon {
-    width: 1.5em;
-    height: 1.5em;
-  }
-
-  .asset-container img {
-    width: 80%;
-    height: 60%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .asset-container {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-/* Added gradient color for background & boxshadow for pics */
-body {
-  background: linear-gradient(to bottom, #d1b4b9, #44617b);
-  background-position: 5% 0;
-  margin: 0;
-}
-
-a:hover {
-  text-decoration: underline;
-}
