@@ -13,25 +13,24 @@
   width: 20%;
 }
 
-/* About Contact Prices menu*/
+/* Menu container */
 .menu-container {
-  display:inline;
-  padding-top: 7.6em;
-  padding-left: 15em;
+  margin-left: 10em; /* this messes up the menu items alignment */
+  margin-top: 7.6em;
+  padding-left: 4em; /* this fixes  menu items alignment */
 }
 
-.list-item {
-  display: inline;
+.menu-container .list-item {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding-right: 1.5em;
+  font-size: 1.4em;
 }
 
 .list-item .header-link {
-  display: inline;
   text-decoration: none;
-  color: purple;
-  font-size: 1.4em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding-right: 0.4em;
+  color: rgb(152, 38, 102);
 }
 
 .list-item .header-link:hover {
@@ -87,7 +86,6 @@ body {
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.082);
 }
 
-
 /* START OF MEDIA QUERY*/
 @media only screen and (max-width: 400px) {
   .header-container {
@@ -100,17 +98,18 @@ body {
     padding-top: 1em;
   }
 
-
   .list-item .header-link {
-    display:inline;
+    display: inline;
     font-size: 1em;
-    }
+  }
 
-    .menu-container{
-      padding-left: 1.5em;
-      padding-right: 0.5em;
-      padding-top: 2em;
-    }
+  .menu-container {
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
   .social-item-top {
     display: grid;
     margin: 0;
@@ -133,13 +132,8 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-
 }
 /* END OF MEDIA QUERY*/
-
-
-
-
 
 /* Added gradient color for background & boxshadow for pics */
 body {
@@ -151,7 +145,6 @@ body {
 a:hover {
   text-decoration: underline;
 }
-
 
 /* Footer */
 footer {
@@ -179,5 +172,3 @@ p {
   padding-left: 3em;
   padding-bottom: 2em;
 }
-
-
