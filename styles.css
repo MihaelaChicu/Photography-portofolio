@@ -133,7 +133,26 @@ body {
     margin-left: auto;
   }
 }
+
+/* Media Query for monitor */
+@media (min-width: 600px) {
+  .menu-container {
+    margin-left: 10em; /* this messes up the menu items alignment */
+    margin-top: 7.6em;
+    padding-left: 0.5em; /* this fixes  menu items alignment */
+    padding-top: 2em;
+  }
+
+  .social-item-top{
+    margin-left:35em;
+    margin-top: 5em;
+  }
+}
+
 /* END OF MEDIA QUERY*/
+
+
+
 
 /* Added gradient color for background & boxshadow for pics */
 body {
