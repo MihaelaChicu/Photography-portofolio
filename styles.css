@@ -87,7 +87,7 @@ body {
 }
 
 /* START OF MEDIA QUERY*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .header-container {
     margin-top: 1em 1.5em 1em 1.7em;
   }
@@ -134,29 +134,28 @@ body {
   }
 }
 
-/* Media Query for monitor */
+/* Media Query for monitor - 1200px for it to look rad
+
 @media (min-width: 600px) {
   .menu-container {
-    margin-left: 10em; /* this messes up the menu items alignment */
-    margin-top: 7.6em;
-    padding-left: 0.5em; /* this fixes  menu items alignment */
-    padding-top: 2em;
+    margin-left: 10em;  this messes up the menu items alignment 
+    margin-top: 7.7em;
+    padding-left: 0.5em;  this fixes  menu items alignment 
+    padding-top: 2.3em;
   }
 
   .social-item-top{
     margin-left:35em;
     margin-top: 5em;
   }
-}
+} 
+*/
 
 /* END OF MEDIA QUERY*/
 
-
-
-
 /* Added gradient color for background & boxshadow for pics */
 body {
-  background: linear-gradient(to bottom, #d1b4b9, #44617b);
+  background: linear-gradient(to bottom, #d1b4b9, #44617b, #000B00);
   background-position: 5% 0;
   margin: 0;
 }
