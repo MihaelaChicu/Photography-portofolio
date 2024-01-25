@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.section {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contactmeinfo {
+  padding: 20%;
+  color: white;
+  font-size: large;
+}
+
+.hero {
+  width: 100%;
+  margin: auto;
+  padding: 10%;
+}
+
+article h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #e69090;
+  display: inline-block;
+  margin: auto;
+  padding-top: 2.5%;
+}
+
+article h1::after {
+  content: "";
+  height: 2px;
+  width: 100%; /*make line width 100% of the element content*/
+  background-color: #e69090;
+  display: block; /*leave this block so it's right under the h1*/
+  margin: auto;
+}
+
+article h5 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 5%;
+  color: #e69090;
+}
+
+/*media query for responsive layout on all devices*/
+
+@media (width <= 600px) {
+  /*rewrote media query condition so it's more readable*/
+  article h1 {
+    font-size: 2em;
+    padding-top: 2.5%;
+    margin-top: 5%;
+  }
+
+  article h5 {
+    font-size: 1.5em;
+    margin-top: 7%;
+  }
+}
+
+@media only screen and (width > 601px) and (width < 768px) {
+  article h1 {
+    font-size: 2em;
+  }
+
+  article h5 {
+    font-size: 1.5em;
+  }
+
+  #contactmeinfo {
+    padding: 5%;
+    color: white;
+    font-size: large;
+    margin: 0;
+  }
+
+  .hero {
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    margin: 0;
+  }
+}
