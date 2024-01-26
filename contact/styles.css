@@ -15,7 +15,7 @@
 }
 
 #contactmeinfo {
-  padding: 20%;
+  padding: 2%;
   color: white;
   font-size: large;
 }
@@ -33,7 +33,6 @@ article h1 {
   color: #e69090;
   display: inline-block;
   margin: auto;
-  padding-top: 2.5%;
 }
 
 article h1::after {
@@ -53,6 +52,13 @@ article h5 {
   color: #e69090;
 }
 
+#gif-container{
+  padding-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*media query for responsive layout on all devices*/
 
 @media (width <= 600px) {
@@ -60,35 +66,47 @@ article h5 {
   article h1 {
     font-size: 2em;
     padding-top: 2.5%;
-    margin-top: 5%;
   }
 
   article h5 {
     font-size: 1.5em;
-    margin-top: 7%;
   }
 }
 
-@media only screen and (width > 601px) and (width < 768px) {
+
+@media only screen and (width > 700px) {
+
   article h1 {
     font-size: 2em;
+    color: blue;
   }
 
   article h5 {
     font-size: 1.5em;
+    margin-top: 2%;
   }
 
   #contactmeinfo {
-    padding: 5%;
     color: white;
     font-size: large;
     margin: 0;
   }
 
   .hero {
-    width: 100%;
-    margin: auto;
-    padding: 5%;
-    margin: 0;
+      width: 100%;
+      margin: auto;
+      padding: 5%;
+ 
+  }
+
+  #gif-container{
+    padding-top: 5%;
+    width: 70%;
+  }
+
+  #contactmeinfo {
+    color: white;
+    font-size: large;
   }
 }
+
