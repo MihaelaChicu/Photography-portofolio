@@ -58,7 +58,7 @@ article h5 {
 }
 
 /*Social media icons */
-.social-media-container{
+.social-media-container {
   display: inline;
   padding-right: auto;
   margin-left: auto;
@@ -74,19 +74,13 @@ article h5 {
   width: 3em;
   height: 3em;
   transition: filter 0.3s;
-  margin-right:1em;
+  margin-right: 1em;
 }
 
 /* Remove the grayscale filter on hover */
 .icon:hover {
   filter: none;
 }
-
-
-
-
-
-
 
 /*media query for responsive layout on all devices*/
 
