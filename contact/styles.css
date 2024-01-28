@@ -46,9 +46,9 @@ article h1::after {
 
 article h5 {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 10em;
   font-weight: 500;
-  margin-top: 5%;
+  margin-top: 20%;
   color: #e69090;
 }
 
@@ -56,6 +56,18 @@ article h5 {
   padding-top: 3%;
   margin-bottom: 2%;
 }
+
+#e-mail, #phone, #social{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    color: #e69090;
+}
+
+#no, #email{
+  font-size: 1.2em;
+}
+
 
 /*Social media icons */
 .social-media-container {
@@ -126,5 +138,9 @@ article h5 {
   #contactmeinfo {
     color: white;
     font-size: large;
+  }
+
+article h5{
+    margin-top: 6vh;
   }
 }
