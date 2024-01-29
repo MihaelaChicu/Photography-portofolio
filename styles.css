@@ -60,11 +60,12 @@
   filter: none;
 }
 
-/* Body container */
+/* Body container 
+/* Added gradient color for background & boxshadow for pics */ 
 body {
+  background: linear-gradient(to bottom, #d1b4b9, #44617b, #000B00);
+  background-position: 5% 0;
   margin: 0;
-  padding: 0;
-  background-color: white;
 }
 
 /*Smooth transition for image box */
@@ -73,11 +74,15 @@ body {
 }
 
 /* Image gallery */
-.asset-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 11%;
-  gap: 0.5rem;
+.main{
+  display:grid;
+  grid-template-columns: 24 24 24;
+  grid-template-rows: 30 30 30;
+
+}
+
+.asset-container{
+  margin-left: 10%;
 }
 
 .asset-container img {
@@ -86,79 +91,6 @@ body {
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.082);
 }
 
-/* START OF MEDIA QUERY*/
-@media only screen and (max-width: 600px) {
-  .header-container {
-    margin-top: 1em 1.5em 1em 1.7em;
-  }
-
-  #logo-image {
-    height: 80%;
-    width: 50%;
-    padding-top: 1em;
-  }
-
-  .list-item .header-link {
-    display: inline;
-    font-size: 1em;
-  }
-
-  .menu-container {
-    padding-left: 1.5em;
-    padding-right: 0.5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-
-  .social-item-top {
-    display: grid;
-    margin: 0;
-    padding-top: 2em;
-  }
-
-  .icon {
-    width: 1.5em;
-    height: 1.5em;
-  }
-
-  .asset-container img {
-    width: 80%;
-    height: 60%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .asset-container {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-/* Media Query for monitor - 1200px for it to look rad
-
-@media (min-width: 600px) {
-  .menu-container {
-    margin-left: 10em;  this messes up the menu items alignment 
-    margin-top: 7.7em;
-    padding-left: 0.5em;  this fixes  menu items alignment 
-    padding-top: 2.3em;
-  }
-
-  .social-item-top{
-    margin-left:35em;
-    margin-top: 5em;
-  }
-} 
-*/
-
-/* END OF MEDIA QUERY*/
-
-/* Added gradient color for background & boxshadow for pics */
-body {
-  background: linear-gradient(to bottom, #d1b4b9, #44617b, #000B00);
-  background-position: 5% 0;
-  margin: 0;
-}
 
 a:hover {
   text-decoration: underline;
