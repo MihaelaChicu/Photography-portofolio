@@ -1,7 +1,7 @@
-* {
+*{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   text-align: center;
 }
 
@@ -15,7 +15,6 @@
 }
 
 #contactmeinfo {
-  padding: 2%;
   color: white;
   font-size: large;
 }
@@ -23,7 +22,6 @@
 .hero {
   width: 100%;
   margin: auto;
-  padding: 10%;
 }
 
 article h1 {
@@ -33,6 +31,7 @@ article h1 {
   color: #e69090;
   display: inline-block;
   margin: auto;
+  padding-top: 2.5%;
 }
 
 article h1::after {
@@ -46,14 +45,14 @@ article h1::after {
 
 article h5 {
   text-transform: uppercase;
-  font-size: 10em;
+  font-size: 2em;
   font-weight: 500;
-  margin-top: 20%;
+  margin-top: 5%;
   color: #e69090;
 }
 
 #gif-container {
-  padding-top: 3%;
+  padding-top: 1%;
   margin-bottom: 2%;
 }
 
@@ -68,7 +67,9 @@ article h5 {
   font-size: 1.2em;
 }
 
-
+p{
+  padding-bottom:.5em;
+}
 /*Social media icons */
 .social-media-container {
   display: inline;
@@ -94,53 +95,4 @@ article h5 {
   filter: none;
 }
 
-/*media query for responsive layout on all devices*/
 
-@media (width <= 600px) {
-  /*rewrote media query condition so it's more readable*/
-  article h1 {
-    font-size: 2em;
-    padding-top: 2.5%;
-  }
-
-  article h5 {
-    font-size: 1.5em;
-  }
-}
-
-@media only screen and (width > 700px) {
-  article h1 {
-    font-size: 2em;
-    color: blue;
-  }
-
-  article h5 {
-    font-size: 1.5em;
-    margin-top: 2%;
-  }
-
-  #contactmeinfo {
-    color: white;
-    font-size: large;
-    margin: 0;
-  }
-
-  .hero {
-    width: 100%;
-    margin: auto;
-    padding: 5%;
-  }
-
-  #gif-container {
-    padding-top: 3%;
-  }
-
-  #contactmeinfo {
-    color: white;
-    font-size: large;
-  }
-
-article h5{
-    margin-top: 6vh;
-  }
-}
