@@ -73,6 +73,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  color:red;
+}
+
 p{
   padding-bottom:.5em;
 }
