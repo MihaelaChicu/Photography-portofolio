@@ -14,28 +14,39 @@
 }
 
 /* Menu container */
+
 .menu-container {
-  margin-left: 10em; /* this messes up the menu items alignment */
+  margin-left: auto; 
   margin-top: 7.6em;
- padding-left: 4em; /* this fixes  menu items alignment */
+  margin-left: 7.5em;
+  margin-right: 2em;
+
 }
 
-.menu-container .list-item {
-  display: inline-block;
-  text-decoration: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding-right: 1.5em;
-  font-size: 1.4em;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
+li {
+  float: left;
+}
 
-.list-item .header-link {
-  text-decoration: none;
+li a{
+  display:block;
   color: rgb(152, 38, 102);
+  text-align: center;
+  font-size: 1.5em;
+  padding-right: 2em;
+  padding-top: 1.7em;
+  padding-left: 0;
+  text-decoration: none;
 }
 
-.list-item .header-link:hover {
-  text-decoration: underline;
+li a:hover{
+  color: white;
 }
 
 
@@ -63,9 +74,6 @@
 .icon:hover {
   filter: none;
 }
-
-
-
 
 /* Body container 
 /* Added gradient color for background & boxshadow for pics */
@@ -97,9 +105,6 @@ body {
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.082);
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 /* Footer */
 footer {
