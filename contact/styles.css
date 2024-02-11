@@ -1,7 +1,7 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -54,38 +54,40 @@ article h5 {
 #gif-container {
   padding-top: 1%;
   margin: auto;
-  height:15em;
+  height: 15em;
   width: 20em;
-
 }
 
-iframe{
+iframe {
   height: 13em;
+  border: none;
 }
 
-#e-mail, #phone, #social{
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 500;
-    color: #e69090;
+#e-mail,
+#phone,
+#social {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 500;
+  color: #e69090;
 }
 
-#no, #email{
+#no,
+#email {
   font-size: 1.2em;
-
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
 
-a:hover{
-  color:red;
+a:hover {
+  color: red;
 }
 
-p{
-  padding-bottom:.5em;
+p {
+  padding-bottom: 0.5em;
 }
 /*Social media icons */
 .social-media-container {
@@ -111,5 +113,3 @@ p{
 .icon:hover {
   filter: none;
 }
-
-
