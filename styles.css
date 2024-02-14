@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Header */
 .header-container {
   display: flex;
@@ -16,41 +21,33 @@
 /* Menu container */
 
 .menu-container {
-  margin-left: auto; 
-  margin-top: 7.6em;
+  margin-left: auto;
+  margin-top: 10em;
   margin-left: 7.5em;
   margin-right: 2em;
-
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a{
-  display:block;
+.menu-container a{
   color: rgb(152, 38, 102);
-  text-align: center;
-  font-size: 1.5em;
-  padding-right: 2em;
-  padding-top: 1.7em;
-  padding-left: 0;
   text-decoration: none;
+  font-size: 1.7em;
+  padding-right: 2em;
 }
 
-li a:hover{
+
+.menu-container a:hover {
   color: white;
 }
 
-
 /* Gray icons */
+
+ /* Use a media query to add a break point at 800px: */
+    /*The width of the elements is 100% if viewport is 800px or smaller */
+    @media screen and (max-width: 800px){
+      .icon{
+        width: 100%;
+      }
+   }
 
 .social-item-top {
   display: inline;
@@ -105,7 +102,6 @@ body {
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.082);
 }
 
-
 /* Footer */
 footer {
   height: 10%;
@@ -113,22 +109,14 @@ footer {
   padding-top: 2em;
 }
 
-.footer-unordered-list {
-  display: inline;
-  text-decoration: none;
-}
-
-.social-item-bottom {
-  display: inline;
-}
-
 .social-item-bottom .footer-link {
   text-decoration: none;
+  padding-right: 1em;
 }
 
 p {
   color: white;
   list-style-type: none;
-  padding-left: 3em;
+  text-align: center;
   padding-bottom: 2em;
 }

@@ -1,39 +1,39 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; 
-    text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-title{
-    color: blue;
+title {
+  color: blue;
 }
-.section{
-    min-height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.section {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-.hero{
-    width:100%;
-    margin: auto;
+.hero {
+  width: 100%;
+  margin: auto;
 }
 
 /*every element is in EM - in relation to the size of it's parent*/
-img{
-    height: 15em;
-    width: 13em;
-    margin: auto;
-    display: block;
-    margin-top: 2%;
-    border-radius: 50%;
-    border: 3px solid #ccc;
+img {
+  height: 15em;
+  width: 13em;
+  margin: auto;
+  display: block;
+  margin-top: 2%;
+  border-radius: 50%;
+  border: 3px solid #ccc;
 }
 
-article h1{
+article h1 {
   font-size: 2.5em;
   font-weight: 500;
   text-transform: uppercase;
@@ -43,86 +43,82 @@ article h1{
   padding-top: 2.5%;
 }
 
-article h1::after{
-    content:"";
-    height:2px;
-    width: 100%; /*make line width 100% of the element content*/
-    background-color: #e69090;
-    display: block; /*leave this block so it's right under the h1*/
-    margin: auto;
+article h1::after {
+  content: "";
+  height: 2px;
+  width: 100%; /*make line width 100% of the element content*/
+  background-color: #e69090;
+  display: block; /*leave this block so it's right under the h1*/
+  margin: auto;
 }
 
- p {
-    font-size: 1.5em;
-    color: #ccc;
-    line-height: 1.5;
-    margin-top: 2%;
-    margin-right: 0;
-    margin-left:0;
+p {
+  font-size: 1.5em;
+  color: #ccc;
+  line-height: 1.5;
+  margin-top: 2%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
-
-article h5{
- text-transform: uppercase;
- font-size:2em;
- font-weight: 500;
- margin-top: 5%;
- color: #e69090;
+article h5 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 5%;
+  color: #e69090;
 }
 
 /*media query for responsive layout on all devices*/
 
-@media (width <= 600px ){ /*rewrote media query condition so it's more readable*/
+@media (width <= 600px) {
+  /*rewrote media query condition so it's more readable*/
 
-  img{
-     height: 12em;
-     width:10em;
-     margin-top: 7%;
+  img {
+    height: 12em;
+    width: 10em;
+    margin-top: 7%;
   }
-  article h1{
+  article h1 {
     font-size: 2em;
     padding-top: 2.5%;
     margin-top: 5%;
   }
 
-   p{
+  p {
     font-size: 1.1em;
     margin-left: 3em;
     margin-right: 3em;
     margin-top: 1.5em;
-   }
-
-  article h5{
-    font-size:1.5em;
-    margin-top: 7%;
   }
 
+  article h5 {
+    font-size: 1.5em;
+    margin-top: 7%;
+  }
 }
 
-
-@media only screen and (width > 601px) and (width < 768px){
-  
-  img{
+@media only screen and (width > 601px) and (width < 768px) {
+  img {
     height: 12em;
-    width:10em;
+    width: 10em;
     margin-top: 7%;
- }
- article h1{
-   font-size: 2em;
-   padding-top: 2.5%;
-   margin-top: 5%;
- }
-
-  p{
-   font-size: 1.1em;
-   margin-left: 3em;
-   margin-right: 3em;
-   margin-top: 1.5em;
+  }
+  article h1 {
+    font-size: 2em;
+    padding-top: 2.5%;
+    margin-top: 5%;
   }
 
- article h5{
-   font-size:1.5em;
-   margin-top: 7%;
- }
+  p {
+    font-size: 1.1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.5em;
+  }
 
+  article h5 {
+    font-size: 1.5em;
+    margin-top: 7%;
+  }
 }
