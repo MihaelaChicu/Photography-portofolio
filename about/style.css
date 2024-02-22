@@ -5,21 +5,13 @@
   text-align: center;
 }
 
-title {
-  color: blue;
-}
-.section {
+body {
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.hero {
-  width: 100%;
-  margin: auto;
 }
 
 /*every element is in EM - in relation to the size of it's parent*/
@@ -33,7 +25,7 @@ img {
   border: 3px solid #ccc;
 }
 
-article h1 {
+h1 {
   font-size: 2.5em;
   font-weight: 500;
   text-transform: uppercase;
@@ -43,7 +35,7 @@ article h1 {
   padding-top: 2.5%;
 }
 
-article h1::after {
+h1::after {
   content: "";
   height: 2px;
   width: 100%; /*make line width 100% of the element content*/
@@ -57,11 +49,9 @@ p {
   color: #ccc;
   line-height: 1.5;
   margin-top: 2%;
-  margin-right: 0;
-  margin-left: 0;
 }
 
-article h5 {
+h5 {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 500;
