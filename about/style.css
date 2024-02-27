@@ -48,7 +48,9 @@ p {
   font-size: 1.5em;
   color: #ccc;
   line-height: 1.5;
-  margin-top: 2%;
+  max-width: 50%;
+  padding-top: 2%;
+  margin: auto;
 }
 
 h5 {
@@ -76,6 +78,7 @@ h5 {
   }
 
   p {
+    text-align: justify;
     font-size: 1.1em;
     margin-left: 3em;
     margin-right: 3em;
