@@ -4,14 +4,14 @@
 }
 
 /* Header */
-.header-container {
+header {
   display: flex;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
 /* Logo image does not overflow */
-#logo-image {
+#logo-image{
   max-width: 100%;
   height: 50%;
   width: 20%;

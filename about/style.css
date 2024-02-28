@@ -14,7 +14,8 @@ body {
   background-size: cover;
 }
 
-/*every element is in EM - in relation to the size of it's parent*/
+/*every element is in EM - in relation to the size of it's parent */
+
 img {
   height: 15em;
   width: 13em;
@@ -53,7 +54,7 @@ p {
   margin: auto;
 }
 
-h5 {
+h2 {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 500;
@@ -85,7 +86,7 @@ h5 {
     margin-top: 1.5em;
   }
 
-  article h5 {
+  article h2 {
     font-size: 1.5em;
     margin-top: 7%;
   }
@@ -110,7 +111,7 @@ h5 {
     margin-top: 1.5em;
   }
 
-  article h5 {
+  article h2 {
     font-size: 1.5em;
     margin-top: 7%;
   }
